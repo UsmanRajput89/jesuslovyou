@@ -5,8 +5,8 @@
     src: url("assets/fonts/Montserrat-Bold.ttf");
   } */
 @font-face {
-    font-family: Aribau Grotesk Regular Light;
-    src: url("assets/fonts/Aribau-Grotesk-Regular-Light.otf");
+    font-family: 'Aribau Grotesk Regular';
+    src: url("../fonts/AribauGroteskRegular.ttf");
   }
 /* Basic Styles */
 *{
@@ -24,7 +24,7 @@ a{
 }
 p{
     font-size: 18px;
-    font-family: Aribau Grotesk Regular Light;
+    font-family: 'Aribau Grotesk Regular';
     /* padding-bottom: 10px; */
 }
 .big{
