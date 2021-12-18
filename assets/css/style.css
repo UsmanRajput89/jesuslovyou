@@ -1,5 +1,9 @@
 /* Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
+/* @font-face {
+    font-family: "MontserratBold";
+    src: url("assets/fonts/Montserrat-Bold.ttf");
+  } */
 @font-face {
     font-family: Aribau Grotesk Regular Light;
     src: url("assets/fonts/Aribau-Grotesk-Regular-Light.otf");
@@ -11,7 +15,7 @@
     font-family: sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     margin:20px 0px 10px 0px;
 }
 a{
@@ -41,8 +45,8 @@ p{
 }
 h2{
     font-size: 50px;
-    /* font-weight: 800; */
-    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 700;
+    
 }
 h3{
     color: #dc3a38;
@@ -129,9 +133,7 @@ h4{
     background-color: brown;
     position: absolute;
     color: white;
-    /* margin-top: -5px; */
     width: 100%;
-    /* padding: 0px 25px; */
     bottom: 0px;
 }
 .testi-content h4,p{
