@@ -10,32 +10,35 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a>
-                    <ul>
-                        <li><a href="">Our team</a></li>
-                        <li><a href="">History</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-        <div class="logo">
-            <img src="assets/images/Logo.png" alt="">
-        </div>
+    <div class="container">
+        <header>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="have_submenu"><a href="#">About</a>
+                        <ul class="submenu">
+                            <li><a href="">Our team</a></li>
+                            <li><a href="">History</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="assets/images/Logo.png" alt="">
+            </div>
+            <div class="search-bar">
+                <form role="search" method="get" id="searchform" action="">    
+                    <label class="screen-reader-text" style="display: none;" for="s">Search for:</label>
+                    <input type="text" name="s" id="s" placeholder="Search">
+                    <button type="submit" id="searchsubmit">Submit</button>
+                </form>    
+            </div>
+            
+        </header>
+    </div>
 
-        <div class="search-bar">
-            <form role="search" method="get" id="searchform" action="">    
-                <label class="screen-reader-text" style="display: none;" for="s">Search for:</label>
-                <input type="text" name="s" id="s" placeholder="Search">
-                <button type="submit" id="searchsubmit">Submit</button>
-            </form>    
-        </div>
-    </header>
     <div class="container">
         <!-- Articles Section -->
         <div class="articles">
@@ -140,6 +143,9 @@
             </div>
         </div>
     </div>
-</body>
 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>

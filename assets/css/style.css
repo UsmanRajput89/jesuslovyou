@@ -1,15 +1,9 @@
 /* Fonts  */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
-
-/* @font-face {
-    font-family: "MontserratBold";
-    src: url("assets/fonts/Montserrat-Bold.ttf");
-  } */
 @font-face {
     font-family: 'Aribau Grotesk Regular';
     src: url("../fonts/AribauGroteskRegular.ttf");
 }
-
 @font-face {
     font-family: 'Aribau Grotesk UltraLight';
     src: url("../fonts/AribauGroteskUltraLight.ttf");
@@ -106,41 +100,65 @@ h4 {
 header{
     display:flex;
     background-color: #fff;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
 }
-
+header .nav, header div{
+    width: 40%;
+}
+.logo{
+    width: 20%;
+}
+/* .search-bar{
+    margin-left: auto;
+} */
 /*| Navigation |*/
-
-nav ul {
+.nav{
+    display: flex;
+    margin-right: auto;
+}
+.nav ul {
     list-style: none;
+    /* position: relative; */
+    /* float: right; */
+}
+
+.nav ul li {
+    /* float: left; */
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    padding: 2px;
+}
+ul.submenu li{
+    display: none;
+    margin: 0px;
+    padding: 0px;
     position: relative;
-    float: right;
-    /* margin-right: 100px; */
-    /* display: inline-table; */
 }
 
-nav ul li {
-    float: left;
-    transition: all 0.2s ease-in-out;
-}
-
-nav ul li:hover {
+/* .nav ul li:hover {
     background: rgba(0, 0, 0, 0.15);
+    
 }
 
-nav ul li:hover>ul {
+.nav ul li:hover>ul {
     display: block;
-}
 
-nav ul li {
+}
+.nav ul li:hover>ul li {
+    display: block;   
+    padding: 10px;
+
+} */
+
+/* .nav ul li {
     float: left;
     transition: all 0.2s ease-in-out;
-}
+} */
 
-nav ul li a {
+.nav ul li a {
     display: block;
-    padding: 10px 20px;
+    padding: 0px 5px;
     color: #222;
     font-size: 0.9em;
     letter-spacing: 1px;
@@ -148,13 +166,13 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-nav ul ul {
+/* .nav ul ul {
     display: none;
     background: #fff;
     position: absolute;
-}
+} */
 
-nav ul ul li {
+.nav ul ul li {
     float: none;
     position: relative;
 }
@@ -167,15 +185,19 @@ nav ul ul li a {
 
 
 .logo img{
-    height: 120px;
+    /* height: 120px; */
+    width: 100%;
+    height: auto;
 }
 
 /* SEARCH FIELD */
-
 .search-bar {
     border: 2px solid #fff;
     color: #fff;
     border-radius: 3px;
+    margin-left: auto;
+    justify-self: flex-end;
+    text-align: right;
 }
 
 /* .search-bar form {
