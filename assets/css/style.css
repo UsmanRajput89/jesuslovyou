@@ -64,13 +64,6 @@ p {
 .mb-30 {
     margin-bottom: 30px;
 }
-<<<<<<< HEAD
-.mb-20{
-    margin-bottom: 20px;
-}
-=======
-
->>>>>>> 9acfc62bfa3399bcd42df894ceb3511fccc2c2fa
 .mb-50{
     margin-bottom: 50px;
 }
@@ -474,33 +467,4 @@ nav .fa.fa-angle-down {
         width: 100%;
         /* margin-bottom: 50px; */
     }
-<<<<<<< HEAD
-    .testimonies-posts{
-        width: 50%;
-    }
-    .sidebar{
-        width: 40%;
-    }
 }
-@media screen and (max-width: 763px){
-    .testimonies-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .testimonies-posts{
-        width: 100%;
-    }
-    .sidebar{
-        width: 100%;  
-        margin-top: 50px;
-    }
-}
-@media screen and (max-width: 415px){
-    .top-heading h2{
-        font-size: 35px;
-    }
-}
-=======
-}
->>>>>>> 9acfc62bfa3399bcd42df894ceb3511fccc2c2fa
