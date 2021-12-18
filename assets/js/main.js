@@ -1,8 +1,8 @@
-$( document ).ready(function() {
-    console.log( "ready!" );
-
-    $(".have_submenu").click(function () {
-        console.log('Have Submenu Clicked');
-        $("ul.submenu li").css("display", "block");
-    });
-});
+$('nav li').hover(
+    function () {
+        $('ul', this).stop().slideDown(200);
+    },
+    function () {
+        $('ul', this).stop().slideUp(200);
+    }
+);
