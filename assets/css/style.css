@@ -136,17 +136,14 @@ h4{
     width: 100%;
     bottom: 0px;
 }
-.testi-content h4,p{
+.testimonies .testi-content h4,.testi-content p{
     padding: 0px 25px;
-    /* font-weight: 400; */
 }
 .post-details{
     margin-bottom: 20px;
 }
 .testi-img{
-    /* border-radius: 10px; */
     width: 100%;
-    /* position: absolute; */
     height: auto;
 }
 
