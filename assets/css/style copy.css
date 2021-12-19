@@ -60,9 +60,6 @@ p{
 .mt-30{
     margin-top: 30px;
 }
-.mt-20{
-    margin-top: 20px;
-}
 .mt-10{
     margin-top: 10px;
 }
@@ -110,204 +107,36 @@ h4{
     width: 85%;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header{
-    display:flex;
-    background-color: #fff;
-    /* justify-content: space-around; */
-    align-items: center;
-}
-header nav, header>div{
-    width: 40%;
-}
-.logo{
-    width: 20%;
-}
-/* .search-bar{
-    margin-left: auto;
-} */
-.logo img{
-    /* height: 120px; */
-    width: 100%;
-    height: auto;
-}
-
-/* SEARCH FIELD */
-.search-bar {
-    border: 2px solid #fff;
-    display: flex;
-    margin-right:auto ;
-    justify-items: flex-end;
-    justify-content: flex-end;
-}
-.field-group{
-    border: 1px solid #000;
-    display: inline-block;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-.search-bar input[type="text"] {
-    background-color: transparent;
-    padding: 5px 10px 5px 10px;
-    outline: 0px;
-    border: 0px;
-    color: #fff;
-    font-size: 14px;
-}
-
-.search-bar button {
-    background-color:#C8102E;
-    color: #fff;
-    border: 0;
-    left: 0;
-    top: 0;
-    height: 100%;
-    padding: 8px 15px;
-    cursor: pointer;
-    /* font-size: 16px; */
-}
-
-::placeholder {
-    color: #ccc;
-    font-size: 14px;
-}
-
-/*|||---  Navigation ----|||*/
-nav ul {
-    font-size: 0;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    position: relative;
-}
-
-nav ul li a {
-    color: #000;
-    display: block;
-    font-size: 14px;
-    padding: 15px 14px;
-    transition: 0.3s linear;
-}
-
-nav ul li ul {
-    border-bottom: 5px solid #C8102E;
-    display: none;
-    position: absolute;
-    width: 180px;
-}
-
-nav ul li ul li {
-    border-top: 1px solid #ccc;
-    display: block;
-}
-
-nav ul li ul li:first-child {
-    border-top: none;
-}
-
-nav ul li ul li a {
-    background: #eee;
-    border-bottom: 1px solid #C8102E;
-    display: block;
-    padding: 10px 14px;
-}
-
-nav ul li ul li a:hover {
-    background: #ccc;
-
-}
-
-nav .fa.fa-angle-down {
-    margin-left: 6px;
-}
-
-.social-icon i{
-    padding: 5px;
-    background-color: #C8102E;
-    color: #fff;
-    text-align: center;
-    line-height: 25px;
-    font-size: 20px;
-    padding: 5px;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-}
-.breadcrumbs-sec{
-    width: 100%;
-    box-shadow: 0px 2px 8px rgba(0,0,0,26%);
-    border-radius: 0px 0px 30px 30px;
-}
-.breadcrumbs{
-    background-image: url(../images/breadcrumbs.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    padding: 120px 0px;
-}
-.site-title{
-    font-size: 50px;
-}
-.site-sub-title{
-    font-size: 22px;
-    font-family: 'Aribau Grotesk Regular';
-}
-
-
 /* Article Section Styles */
 
-.posts {
+.posts{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.details,
-.post-item {
+.details, .post-item{
     width: 22%;
 }
-
-.divider {
+.divider{
     width: 40%;
     background-color: black;
     height: 2px;
 }
-
-.article-img {
+.article-img{
     border-radius: 10px;
     width: 100%;
     height: auto;
 }
-
-.article-date {
-    color: #C8102E;
-    margin: 20px 0px 10px 0px;
+.article-date{
+    color: #dc3a38;
+    margin:20px 0px 10px 0px;
 }
-
-.see-more {
+.see-more{
     display: flex;
     justify-content: flex-end;
 }
-
-.btn-red {
-    background-color: #C8102E;
+.btn-red{
+    background-color: #dc3a38;
     color: white;
     padding: 10px 30px;
     border: none;
@@ -317,174 +146,52 @@ nav .fa.fa-angle-down {
     font-size: 20px;
     font-weight: 500;
 }
-
 /* Categories Section Styles */
-.cat-items {
+.cat-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.cat-item {
+.cat-item{
     width: 22%;
 }
-
-.cat-img {
+.cat-img{
     border-radius: 10px;
     width: 100%;
     height: auto;
 }
 
 /* Testimonies Section Styles */
-.testimonies {
+.testimonies{
     width: 100%;
 }
-
-.testi-items {
+.testi-items{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
-
-
-.testi-item {
+.testi-item{
     width: 25%;
     position: relative;
 }
-
-.testi-content {
-    min-height: 38%;
-    background-color: #C8102E;
+.testi-content{
+    background-color: brown;
     position: absolute;
     color: white;
     width: 100%;
     bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
-
-.testimonies .testi-content h4,
-.testi-content p {
+.testimonies .testi-content h4,.testi-content p{
     padding: 0px 25px;
-    display: flex;
 }
-.testi-content p{
-    font-family: 'Aribau Grotesk UltraLight';
-}
-.post-details {
+.post-details{
     margin-bottom: 20px;
 }
-
-.testi-img {
+.testi-img{
     width: 100%;
     height: auto;
 }
-.relationships{
-    display: flex;
-    justify-content: space-between;
-}
-.relation-item{
-    height: 350px;
-    width: 32%;
-    position: relative;
-    border-radius: 20px;
-}
-.relation-bg{
-    border-radius: 20px;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-}
-.relation-content{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    min-height: 38%;
-    color: #fff;
-    background-color: #c8102fc7;
-    border-radius: 0px 0px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.relation-content h4, .relation-content p{
-    padding: 0px 25px;
-}
-footer{
-    background-color: #000;
-    color: #fff;
-    padding-bottom: 50px;
-    padding-top: 20px;
-}
-.footer-section{
-    display: flex;
-}
-.footer-section>div{
-    width: 32%;
-    padding: 20px;
-}
-.footer-1 img{
-    /* height: 100px; */
-    width: 50%;
-}
-
-.footer-2 h3, .footer-3 h3{
-    color: #fff;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-.footer-2 ul{
-    margin-left: 20px;
-}
-.footer-2 ul li{
-    list-style: none;
-    font-size: 22px;
-    border-left: 5px solid #fff;
-    margin: 10px 0px;
-    padding: 5px 15px;
-}
-.footer-2 ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-
-
-
-.copyright-bar{
-    background-color: #C8102E;
-    color: #fff;
-    padding: 14px;
-    text-align: center;
-    font-size: 14px;
-}
-.copyright-bar p{
-    font-family: 'Aribau Grotesk UltraLight';
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Testimonies page styles */
 .testimonies-content{
     display: flex;
