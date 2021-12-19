@@ -5,7 +5,7 @@
     src: url("../fonts/AribauGroteskRegular.ttf");
 }
 @font-face {
-    font-family: 'Aribau Grotesk UltraLight';
+    font-family: 'Aribau Grotesk UltraLight'; 
     src: url("../fonts/AribauGroteskUltraLight.ttf");
 }
 
@@ -67,6 +67,12 @@ p {
 .mb-30 {
     margin-bottom: 30px;
 }
+<<<<<<< Updated upstream
+=======
+.mb-20{
+    margin-bottom: 20px;
+}
+>>>>>>> Stashed changes
 .mb-50{
     margin-bottom: 50px;
 }
@@ -321,6 +327,7 @@ nav .fa.fa-angle-down {
     justify-content: space-between;
 }
 
+
 .testi-item {
     width: 25%;
     position: relative;
@@ -462,24 +469,38 @@ footer{
 
 
 /* Testimonies page styles */
+<<<<<<< Updated upstream
 .post-category{
     display: flex;
     justify-content: space-between;
 }
 .post-category-content{
     width: 75%;
+=======
+.post-category-content{
+    display: flex;
+    justify-content: space-between;
+}
+.post-category{
+    width: 71%;
+>>>>>>> Stashed changes
     /* height: 500px; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     /* background-color: black; */
 }
+.post-category .light{
+    font-size: 18px;
+    font-family: 'Aribau Grotesk UltraLight';
+}
 /* Sidebar Styles */
 .sidebar{
-    width: 23%;
+    width: 25%;
     border: 1px solid #CCCCCC;
     background-color: #fff;
     border-radius: 10px;
+    height: fit-content;
 }
 .sidebar-content{
     padding-left: 20px;
@@ -529,11 +550,19 @@ footer{
     font-size: 14px;
     font-family: 'Aribau Grotesk Regular';
 }
+<<<<<<< Updated upstream
 .post-category .item{
     width: 30%;
 }
 .post-category .item img{
+=======
+.post-category .posts{
+    width: 30%;
+}
+.post-category .posts img{
+>>>>>>> Stashed changes
     border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,16%);
     width: 100%;
     height: auto;
 }
@@ -558,9 +587,13 @@ footer{
 .pagination ul li a{
     color: #C8102E;
 }
+<<<<<<< Updated upstream
 .single-post-content img{
     width: 100%;
 }
+=======
+
+>>>>>>> Stashed changes
 /* Post Page Styles */
 .post-title{
     font-size: 40px;
@@ -594,7 +627,7 @@ footer{
 @media screen and (max-width: 1024px) {
 
     .details,
-    .post-item {
+    .post-posts {
         width: 45%;
     }
 
@@ -603,7 +636,11 @@ footer{
         width: 100%;
         height: auto;
     }
+<<<<<<< Updated upstream
     .post-category .item{
+=======
+    .post-category .posts{
+>>>>>>> Stashed changes
         width: 45%;
     }
     .post-category{
@@ -614,8 +651,40 @@ footer{
     }
   }
   @media screen and (max-width: 900px){
+<<<<<<< Updated upstream
     .post-category .item{
         width: 100%;
         /* margin-bottom: 50px; */
     }
+=======
+    .post-category .posts{
+        width: 100%;
+        /* margin-bottom: 50px; */
+    }
+    .post-category{
+        width: 50%;
+    }
+    .sidebar{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 763px){
+    .post-category-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .post-category{
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;  
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 415px){
+    .top-heading h2{
+        font-size: 35px;
+    }
+>>>>>>> Stashed changes
 }
