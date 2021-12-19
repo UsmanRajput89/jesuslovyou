@@ -4,12 +4,66 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/all.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
         <title>About Page</title>
     </head>
 <body>
-   <div class="container">
-       <div class="about">
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <div class="nav-con">
+                    <ul>
+                        <li> <a href="#">Blogs<i class='fa fa-angle-down'></i></a>
+                            <ul>
+                                <li><a href="#">Category One</a></li>
+                                <li><a href="#">Category Two</a></li>
+                                <li><a href="#">Category Three</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                        <li class='sub-menu'><a href="#">English (GB)<i class='fa fa-angle-down'></i></a>
+                            <ul>
+                                <li><a href="#">Service One</a></li>
+                                <li><a href="#">Service Two</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="logo">
+                <img src="assets/images/Logo.png" alt="">
+            </div>
+
+            <div class="search-bar">
+                <form role="search" method="get" id="searchform" action="">   
+                    <div class="field-group">
+                        <label class="screen-reader-text" style="display: none;" for="s">Search for:</label>
+                        <input type="text" name="s" id="s" placeholder="Search">
+                        <button type="submit" id="searchsubmit">Submit</button>
+                    </div>                    
+                </form>  
+
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                
+            </div>
+            
+        </header>
+    </div>
+   <div class="container" id="creater">
+       <div class="about mt-50">
            <div class="creater-details">
                <h2 class="basic-color">MEET THE CREATOR</h2>
                <div class="horizontal-divider"></div>
@@ -52,5 +106,60 @@
            </div>
        </div>
    </div> 
+   <div class="container" id="mission">
+    <div class="about mt-50">
+        <div class="mission-image">
+            <img src="assets/images/mission.jpeg" alt="">
+        </div>
+        <div class="mission mt-20">
+            <h2 class="basic-color">MISSION</h2>
+            <p class="mt-50">
+                "The blog jesuslovyou has been created to inspire Christians and non Christians. The aim of every content is to empower each of you and to share with you the application of the Bible in your day to day life. 
+                <br>
+                <br>
+                Jesus is ALIVE through us and his word is the same yesterday and today to give light to our daily growth."
+            </p>
+        </div>
+        
+    </div>
+</div> 
+
+   <footer class="mt-50">
+    <div class="container footer-section">
+        <div class="footer-1">
+            <img src="assets/images/Logo.png" alt="">
+            <p>Morbi auctor ipsum vitae tincidunt aliquam. Aenean erat sapien, convallis nec eros eget, laoreet commodo tortor. Mauris vitae purus malesuada, ultricies odio ut, tempor quam. Integer quam dui, suscipit in auctor id.</p>
+        </div>
+
+        <div class="footer-2">
+            <h3>USEFUL LINKS</h3>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-3">
+            <h3>GET IN TOUCH</h3>
+            <p>Speak to Kaizev's experienced team of specialists to understand what your options are.</p>
+            <div class="social-icons mt-20">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+   </footer>
+
+    <div class="copyright-bar">
+        <p>Copyright Kaizev, All Rights Reserved.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

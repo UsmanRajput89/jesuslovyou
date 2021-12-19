@@ -731,6 +731,14 @@ input[type="email"]:focus {
 
 }
 /* About Page Styles */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.creater-details,.creater-image,.mission,.mission-image{
+    width: 48%;
+}
 .horizontal-divider{
     width: 10%;
     height: 5px;
@@ -739,7 +747,12 @@ input[type="email"]:focus {
 .creater-image img{
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 0px 8px rgba(0,0,0,16%);
+    box-shadow: 0px 0px 8px rgba(0,3px,0,16%);
+}
+.mission-image img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,3px,0,16%);
 }
 /* Responsiveness Code  */
 @media screen and (max-width: 1366px){
@@ -768,6 +781,20 @@ input[type="email"]:focus {
     .sidebar{
         width: 30%;
     }
+    .creater-details{
+        width: 63%;
+    }
+    .creater-image{
+        width: 35%;
+    }
+    .mission{
+        width: 59%;
+        margin-top: 0px !important;
+    }
+    .mission-image{
+        width: 39%;
+        margin-top: 30px;
+    }
   }
   @media screen and (max-width: 900px){
     .testimonies-posts .item{
@@ -787,12 +814,30 @@ input[type="email"]:focus {
         flex-direction: column;
         justify-content: center;
     }
-    .testimonies-posts, .single-post-content{
+    .testimonies-posts, .single-post-content,.mission,.mission-image{
         width: 100%;
     }
     .sidebar{
         width: 100%;  
         margin-top: 50px;
+    }
+    .creater-details{
+        width: 100%;
+        text-align: center;
+    }
+    .horizontal-divider{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .creater-image{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .mission{
+        text-align: center;
+    }
+    .mission-image{
+        order: 2;
     }
 }
 @media screen and (max-width: 415px){
