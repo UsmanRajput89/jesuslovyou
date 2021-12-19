@@ -15,6 +15,7 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .basic-color{
@@ -45,7 +46,9 @@ p {
 .mt-30 {
     margin-top: 30px;
 }
-
+.mt-20{
+    margin-top: 20px;
+}
 .mt-10{
     margin-top: 10px;
 }
@@ -78,20 +81,20 @@ h2 {
 }
 
 h3 {
-    color: #dc3a38;
+    color: #C8102E;
     font-size: 35px;
     font-weight: 500;
     /* font-family: 'Montserrat', sans-se rif; */
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 22px;
 }
 .bold{
     font-weight: bold;
 }
 .container{
-    width: 85%;
+    width: 84%;
     margin: 0 auto;
 }
 
@@ -208,9 +211,7 @@ nav ul li ul li a:hover {
 nav .fa.fa-angle-down {
     margin-left: 6px;
 }
-/* .social-icons{
-    margin-left: 0px 20px;
-} */
+
 .social-icon i{
     padding: 5px;
     background-color: #C8102E;
@@ -220,19 +221,28 @@ nav .fa.fa-angle-down {
     font-size: 20px;
     padding: 5px;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
 }
-/* .insta{
-    border-radius: 100%;
-    background-color: #C8102E;
-    color: #fff;
-    font-size: 25px;
-} */
-
-
-
-
+.breadcrumbs-sec{
+    width: 100%;
+    box-shadow: 0px 2px 8px rgba(0,0,0,26%);
+    border-radius: 0px 0px 30px 30px;
+}
+.breadcrumbs{
+    background-image: url(../images/breadcrumbs.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 120px 0px;
+}
+.site-title{
+    font-size: 50px;
+}
+.site-sub-title{
+    font-size: 22px;
+    font-family: 'Aribau Grotesk Regular';
+}
 
 
 /* Article Section Styles */
@@ -261,7 +271,7 @@ nav .fa.fa-angle-down {
 }
 
 .article-date {
-    color: #dc3a38;
+    color: #C8102E;
     margin: 20px 0px 10px 0px;
 }
 
@@ -271,7 +281,7 @@ nav .fa.fa-angle-down {
 }
 
 .btn-red {
-    background-color: #dc3a38;
+    background-color: #C8102E;
     color: white;
     padding: 10px 30px;
     border: none;
@@ -317,18 +327,25 @@ nav .fa.fa-angle-down {
 }
 
 .testi-content {
-    background-color: brown;
+    min-height: 38%;
+    background-color: #C8102E;
     position: absolute;
     color: white;
     width: 100%;
     bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .testimonies .testi-content h4,
 .testi-content p {
     padding: 0px 25px;
+    display: flex;
 }
-
+.testi-content p{
+    font-family: 'Aribau Grotesk UltraLight';
+}
 .post-details {
     margin-bottom: 20px;
 }
@@ -337,6 +354,113 @@ nav .fa.fa-angle-down {
     width: 100%;
     height: auto;
 }
+.relationships{
+    display: flex;
+    justify-content: space-between;
+}
+.relation-item{
+    height: 350px;
+    width: 32%;
+    position: relative;
+    border-radius: 20px;
+}
+.relation-bg{
+    border-radius: 20px;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.relation-content{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-height: 38%;
+    color: #fff;
+    background-color: #c8102fc7;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.relation-content h4, .relation-content p{
+    padding: 0px 25px;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.footer-section{
+    display: flex;
+}
+.footer-section>div{
+    width: 32%;
+    padding: 20px;
+}
+.footer-1 img{
+    /* height: 100px; */
+    width: 50%;
+}
+
+.footer-2 h3, .footer-3 h3{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-2 ul{
+    margin-left: 20px;
+}
+.footer-2 ul li{
+    list-style: none;
+    font-size: 22px;
+    border-left: 5px solid #fff;
+    margin: 10px 0px;
+    padding: 5px 15px;
+}
+.footer-2 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.copyright-bar{
+    background-color: #C8102E;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+    font-size: 14px;
+}
+.copyright-bar p{
+    font-family: 'Aribau Grotesk UltraLight';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Testimonies page styles */
 .testimonies-content{
     display: flex;
